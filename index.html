@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urban Style Boutique</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:linear-gradient(135deg,#000,#222);
+color:white;
+text-align:center;
+padding:30px;
+}
+
+header h1{
+font-size:50px;
+text-shadow:0 0 15px rgba(255,255,255,.5);
+letter-spacing:2px;
+}
+
+header p{
+margin-top:10px;
+font-size:20px;
+color:#f0f0f0;
+}
+
+.hero{
+height:500px;
+background:url('imagenes/banner.jpg') center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h2{
+background:rgba(0,0,0,.75);
+color:white;
+padding:25px 40px;
+font-size:50px;
+border-radius:15px;
+box-shadow:0 0 20px rgba(0,0,0,.4);
+}
+
+.hero span{
+font-size:24px;
+font-weight:normal;
+}
+
+.titulo{
+text-align:center;
+font-size:42px;
+margin:60px 0 20px;
+color:#111;
+}
+
+.categorias{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+padding:40px;
+max-width:1400px;
+margin:auto;
+}
+
+.card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.02);
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.card img{
+width:100%;
+height:450px;
+object-fit:cover;
+}
+
+.card h2{
+text-align:center;
+padding:20px 20px 10px;
+font-size:32px;
+color:#111;
+}
+
+.card p{
+text-align:center;
+padding:0 20px 20px;
+color:#666;
+font-size:16px;
+line-height:1.5;
+}
+
+.card a{
+display:block;
+background:linear-gradient(45deg,#ff4d4d,#ff9900);
+color:white;
+text-decoration:none;
+text-align:center;
+padding:18px;
+font-size:18px;
+font-weight:bold;
+transition:.3s;
+}
+
+.card a:hover{
+background:linear-gradient(45deg,#ff9900,#ff4d4d);
+}
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:50px;
+font-size:17px;
+line-height:1.8;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Urban Style Boutique</h1>
+<p>🔥 Tendencias que marcan tu estilo • Calidad que se nota • Moda que inspira</p>
+</header>
+
+<section class="hero">
+<h2>
+✨ COLECCIÓN 2026 ✨
+<br>
+<span>Descubre la moda que está conquistando las calles</span>
+</h2>
+</section>
+
+<h1 class="titulo">🛍️ Encuentra tu próximo look favorito</h1>
+
+<section class="categorias">
+
+<div class="card">
+<img src="Port/hombres-portada.jpg" alt="Moda para hombres">
+<h2>👔 Hombres</h2>
+<p>
+Estilo, actitud y elegancia para destacar en cualquier ocasión.
+Encuentra las prendas que elevarán tu presencia al siguiente nivel.
+</p>
+<a href="hombres/hombres.html">Ver colección →</a>
+</div>
+
+<div class="card">
+<img src="Port/mujeres-portada.jpg" alt="Moda para mujeres">
+<h2>💖 Mujeres</h2>
+<p>
+Las últimas tendencias para lucir increíble todos los días.
+Diseños modernos para expresar tu personalidad única.
+</p>
+<a href="mujeres/mujeres.html">Ver colección →</a>
+</div>
+
+<div class="card">
+<img src="Port/ninos-portada.jpg" alt="Moda para niños">
+<h2>⭐ Niños</h2>
+<p>
+Comodidad, diversión y estilo para los más pequeños.
+Ropa ideal para jugar, aprender y crear grandes aventuras.
+</p>
+<a href="ninos/ninos.html">Ver colección →</a>
+</div>
+
+</section>
+
+<footer>
+✨ Urban Style Boutique ✨<br>
+Tu estilo, tu actitud, tu momento.<br><br>
+🔥 Nuevas colecciones cada temporada 🔥<br>
+© 2026 Todos los derechos reservados<br>
+Hecho por Andrik Dueñas
+</footer>
+
+</body>
+</html>
